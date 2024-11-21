@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Correct Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <title>My Profile</title>
+
+    <style>
+        #header {
+            background-color: lavenderblush;
+            padding: 20px;
+        }
+
+        .nav h2, .nav p {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .contact-info p {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        /* Main section styles */
+        #main {
+            padding: 20px;
+        }
+
+        .Object p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: #eb9c8b;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        hr {
+            margin-top: 20px;
+        }
+
+        .project h1, .project p, .project h3 {
+            margin-top: 0;
+        }
+
+        .project h1 {
+            background-color: #eb9c8b;
+        }
+
+        /* Language section styles */
+        .language h1 {
+            background-color: #eb9c8b;
+        }
+
+        .language .skill {
+            margin: 10px 0;
+        }
+
+        .language label {
+            display: inline-block;
+            width: 100px;
+        }
+
+        .language input[type="range"] {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="header">
+            <nav class="nav">
+                <img src="src/profile.png" alt="Profile image" height="200px" width="200px">
+                <h2>Farhana Haque</h2>
+                <p>Software Developer</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> farhana.haque@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 1234 Elm Street, Cityville</p>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <section id="main">
+        <div class="Object">
+            <p>Passionate about programming and emerging technologies. Seeking a job to play a role in an adaptable environment where there is an opportunity for self-improvement and implementing the knowledge gained in software engineering.</p>
+        </div>
+        <hr>
+        <div class="Qualification">
+            <h1>Academic Qualification</h1>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Institution</th>
+                    <th>Result</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Bachelor's</td>
+                    <td>University of XYZ</td>
+                    <td>3.50</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>H.S.C</td>
+                    <td>College of ABC</td>
+                    <td>3.90</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>S.S.C</td>
+                    <td>College of PQR</td>
+                    <td>5.00</td>
+                    <td>2014</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <div class="project">
+            <h1>Projects</h1>
+            <h3>E-commerce Website</h3>
+            <p>Technology Used: PHP, MySQL, CSS, HTML, Bootstrap-4</p>
+            <h3>Piano</h3>
+            <p>Piano using Arduino</p>
+        </div>
+        <br>
+
+        <div class="language">
+            <h1>Languages & Skills</h1>
+            <div class="skill">
+                <label for="c-skill">C</label>
+                <input type="range" id="c-skill" name="c-skill" min="0" max="100" value="90">
+            </div>
+            <div class="skill">
+                <label for="cpp-skill">C++</label>
+                <input type="range" id="cpp-skill" name="cpp-skill" min="0" max="100" value="85">
+            </div>
+            <div class="skill">
+                <label for="html-skill">HTML</label>
+                <input type="range" id="html-skill" name="html-skill" min="0" max="100" value="95">
+            </div>
+            <div class="skill">
+                <label for="css-skill">CSS</label>
+                <input type="range" id="css-skill" name="css-skill" min="0" max="100" value="90">
+            </div>
+            <div class="skill">
+                <label for="php-skill">PHP</label>
+                <input type="range" id="php-skill" name="php-skill" min="0" max="100" value="80">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
