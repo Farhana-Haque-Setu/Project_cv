@@ -15,8 +15,4 @@ Tech:
 
 
 
-# project-cv
-# project-cv
-# project-cv
-# project_cv
-# project_cv
+
